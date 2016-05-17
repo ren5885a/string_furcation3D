@@ -1,0 +1,10 @@
+#!/bin/bash
+#PBS -N Tri_route3_3D
+#PBS -l nodes=10:ppn=5:MPI-TCP,mem=2000mb,vmem=4000mb,walltime=23:59:00
+#PBS -S /bin/sh
+#PBS -o bulk3d.out
+#PBS -e bulk3d.err
+#PBS -q shorttime
+cd $PBS_O_WORKDIR
+MPI_OPT="--hostfile $PBS_NODEFILE --np $(cat $PBS_NODEFILE|wc -l)"
+mpirun $MPI_OPT ./TRY

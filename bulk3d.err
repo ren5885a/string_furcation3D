@@ -1,0 +1,7 @@
+[compute-11-16.local:112245] [[21931,0],0] mca_oob_tcp_recv_handler: invalid message type: 12
+[compute-11-16.local:112245] [[21931,0],0] mca_oob_tcp_recv_handler: invalid message type: 12
+[compute-11-16.local:112245] [[21931,0],0] mca_oob_tcp_recv_handler: invalid message type: 12
+[compute-11-16.local:112245] [[21931,0],0] mca_oob_tcp_recv_handler: invalid message type: 12
+[compute-11-16.local:112245] [[21931,0],0] mca_oob_tcp_recv_handler: invalid message type: 12
+mpirun: killing job...
+
